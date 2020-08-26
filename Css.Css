@@ -6,11 +6,10 @@ body {
 }
 
 .nav {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   height: 12vh;
   padding: 10px 0px;
-  z-index: 3;
   background-image: transparent;
 }
 
@@ -53,6 +52,12 @@ body {
   transition: all .2s;
 }
 
+.nav-li--påmelding {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
 .nav-li:hover,
 .nav-li:active {
   color: rgba(0, 0, 0, .15);
@@ -60,6 +65,43 @@ body {
   transform: translateY(-10px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
 }
+
+.center {
+  text-align: center;
+}
+
+.fontstyleS300 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.fontstyleS100 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+.fontstyleS500 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.fontstyleS800 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.whitetext {
+  color: #F8F8FF
+}
+
+.fontsize {
+  font-size: 20px
+}
+
 
 /*
 ul {

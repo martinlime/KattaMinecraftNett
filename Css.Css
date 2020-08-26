@@ -5,6 +5,63 @@ body {
     min-height: 100vh
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 12vh;
+  padding: 10px 0px;
+  z-index: 3;
+  background-image: transparent;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.nav-li {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 20px 40px;
+  transition: all .2s;
+}
+
+.nav-li--home {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.nav-li--om {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.nav-li--stream {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.nav-li--minecraftmap {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.nav-li:hover,
+.nav-li:active {
+  color: rgba(0, 0, 0, .15);
+  border-radius: 3px;
+  transform: translateY(-10px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+}
+
+/*
 ul {
   list-style-type: none;
   text-decoration: none;
@@ -34,3 +91,5 @@ li a {
   justify-content: space-between;
   align-items: center;
 }
+
+*/

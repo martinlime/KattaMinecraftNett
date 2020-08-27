@@ -28,31 +28,7 @@ body {
   transition: all .2s;
 }
 
-.nav-li--home {
-  color: #fff;
-  text-decoration: none;
-  transition: all .2s;
-}
-
-.nav-li--om {
-  color: #fff;
-  text-decoration: none;
-  transition: all .2s;
-}
-
-.nav-li--stream {
-  color: #fff;
-  text-decoration: none;
-  transition: all .2s;
-}
-
-.nav-li--minecraftmap {
-  color: #fff;
-  text-decoration: none;
-  transition: all .2s;
-}
-
-.nav-li--påmelding {
+.fancycss {
   color: #fff;
   text-decoration: none;
   transition: all .2s;

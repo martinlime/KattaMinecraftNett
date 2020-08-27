@@ -82,6 +82,10 @@ body {
   background-color: teal;
 }
 
+.clearPicture{
+  display: none;
+}
+
 
 /*
 ul {

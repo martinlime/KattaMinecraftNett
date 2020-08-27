@@ -78,14 +78,8 @@ body {
   font-size: 20px
 }
 
-.divhover {
+.hover:hover {
   background-color: teal;
-  padding: 20px;
-  display: none;
-}
-
-span:hover + div {
-  display: block;
 }
 
 
@@ -98,6 +92,17 @@ ul {
   overflow: hidden;
   background: rgb(32,32,32);
   background-color: dimgray;
+}
+
+
+.divhover {
+  background-color: teal;
+  padding: 20px;
+  display: none;
+}
+
+span:hover + div {
+  display: block;
 }
 
 

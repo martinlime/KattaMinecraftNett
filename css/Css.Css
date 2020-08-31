@@ -97,11 +97,17 @@ body {
 
 .hometext {
     padding: 0 30px;
-    /* text-ovkerflow: ellipsis; */
-    max-width: 40%;
-    text-align: center;
+    
 }
 
 .kattabilde {
     max-width: -40%;
+}
+
+.flexboxsize4 {
+    flex-grow: 6;
+}
+
+.flexboxsize1 {
+    flex-grow: 1;
 }

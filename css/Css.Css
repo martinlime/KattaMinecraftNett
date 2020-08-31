@@ -98,10 +98,10 @@ body {
 .hometext {
     padding: 0 30px;
     /* text-ovkerflow: ellipsis; */
-    max-width: 30rem;
+    max-width: 40%;
     text-align: center;
 }
 
 .kattabilde {
-    max-width: -30rem;
+    max-width: -40%;
 }

@@ -81,7 +81,7 @@ body {
 }
 
 .imgopacity05 {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .blckm {
@@ -94,7 +94,7 @@ body {
     margin-right: 15%;
     margin-left: 15%;
     text-align: center;
-  }
+}
 
 
 /*
@@ -132,4 +132,26 @@ ul {
 
 .flexboxsize1 {
     flex-grow: 1;
+}
+
+/* Form */
+
+.joinForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.submitInput {
+    width: 100%;
+    background-color: #fff;
+    color: orangered;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitInput:hover {
+    background-color: #45a049;
 }

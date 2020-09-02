@@ -2,7 +2,8 @@ body {
     background: rgb(17, 17, 17);
     background: linear-gradient(90deg, rgba(17, 17, 17, 1) 0%, rgba(45, 45, 45, 1) 50%, rgba(17, 17, 17, 1) 100%);
     background-repeat: no-repeat;
-    min-height: 100vh
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -95,34 +96,27 @@ ul {
 }
 
 
-.divhover {
-  background-color: teal;
-  padding: 20px;
-  display: none;
+.wave1 {
+    
 }
 
-span:hover + div {
-  display: block;
+.wave2 {
+    margin-top: -10px;
 }
 
-
-a:link {
-  text-decoration: none;
-  list-style-type: none;
+.hometext {
+    padding: 0 30px;
+    
 }
 
-
-
-li a {
-  display: block;
-  padding: 20px;
+.kattabilde {
+    max-width: -40%;
 }
 
-.navbar {
-  height: 20vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.flexboxsize4 {
+    flex-grow: 6;
 }
 
-*/
+.flexboxsize1 {
+    flex-grow: 1;
+}

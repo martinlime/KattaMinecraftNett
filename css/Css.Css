@@ -134,6 +134,13 @@ ul {
     flex-grow: 1;
 }
 
+/* Scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Form */
 
 .joinForm {

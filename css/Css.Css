@@ -137,21 +137,41 @@ ul {
 /* Form */
 
 .joinForm {
-    border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.textInput,
+select {
+    background-color: gainsboro;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .submitInput {
-    width: 100%;
-    background-color: #fff;
-    color: orangered;
+    width: 30%;
+    background-color: orange;
+    color: #fff;
     padding: 14px 20px;
     margin: 8px 0;
     border-radius: 4px;
+    border: 2px solid black;
     cursor: pointer;
 }
 
 .submitInput:hover {
     background-color: #45a049;
+}
+
+.textInput:hover {
+    background-color: whitesmoke;
+}
+
+
 }

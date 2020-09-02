@@ -140,6 +140,13 @@ ul {
     padding: 20px;
     text-align: center;
     color: #fff;
+    font-size: 20px;
+}
+
+.joinFormLabel {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
 }
 
 .textInput,
@@ -171,7 +178,4 @@ select {
 
 .textInput:hover {
     background-color: whitesmoke;
-}
-
-
 }

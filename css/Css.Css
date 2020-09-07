@@ -105,7 +105,8 @@ body {
 }
 
 .flexboxsize4 {
-    flex-grow: 6;
+    flex-grow: 4;
+    float: left;
 }
 
 .flexboxsize1 {

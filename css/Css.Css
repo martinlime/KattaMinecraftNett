@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 12vh;
     padding: 10px 0px;
-    background-color: #f8f8ff;
+    background-color: hsla(0, 0%, 25%, 1);
 }
 
 .nav-ul {
@@ -24,10 +24,10 @@ body {
 .nav-li {
     font-size: 20px;
     list-style-type: none;
-    margin: 0 10px;
+    margin: 0px 10px;
     padding: 20px 40px;
-    transition: all .2s;
-    background-color: coral;
+    transition: all 0.2s ease 0s;
+    background-color: rgb(180, 81, 45);
 }
 
 .fancycss {
@@ -139,6 +139,55 @@ ul {
 
 html {
     scroll-behavior: smooth;
+    background-image: none !important;
+    background: #1f1f1f !important;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #3e4346 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #646464 !important;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #3e4346 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #242424 !important;
+    border: 2px solid #3e4346 !important;
+}
+
+::-webkit-scrollbar-corner {}
+
+::-webkit-resizer {}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background: linear-gradient(130deg, #696969 40%, rgba(255, 0, 0, 0) 41%), linear-gradient(230deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(0deg, #696969 40%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    background: linear-gradient(310deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(50deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(180deg, #696969 40%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background: linear-gradient(210deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(330deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(90deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background: linear-gradient(30deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(150deg, #696969 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(270deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #b6b6b6;
 }
 
 
@@ -159,24 +208,25 @@ html {
 
 .textInput,
 select {
-    background-color: gainsboro;
+    background-color: rgb(61, 61, 61);
+    color: #bfbfbf;
     width: 25%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(77, 77, 77);
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .submitInput {
     width: 30%;
-    background-color: orange;
-    color: #fff;
+    background-color: rgb(204, 150, 51);
+    color: rgb(255, 255, 255);
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
     border-radius: 4px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -185,5 +235,5 @@ select {
 }
 
 .textInput:hover {
-    background-color: whitesmoke;
+    background-color: #1f1f1f;
 }
